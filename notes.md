@@ -1,0 +1,3 @@
+- setMines :
+  - check if nbr negative, not int, or greater then list length
+  - 
