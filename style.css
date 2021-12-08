@@ -11,7 +11,6 @@ h1{
 	font-weight: 500;
 }
 
-
 nav{
 	display: flex;
 	flex-direction: row;
@@ -25,7 +24,9 @@ nav h1{
 /****************************/
 /* MODAL									  */
 /****************************/
-
+.display-none{
+	display: none !important;
+} 
 .modal{
 	display: block;
 	position: fixed;
@@ -39,6 +40,16 @@ nav h1{
 	border-radius: 10px;
 }
 
+.close-btn{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 25px;
+	height: 25px;
+
+	background-color: red;
+
+}
 .modal h1{
 	padding: 10px 35px ;
 }
@@ -67,8 +78,6 @@ nav h1{
 	width: 90%;
 	margin: 10px auto;
 }
-
-
 /****************************/
 /* Console									*/
 /****************************/

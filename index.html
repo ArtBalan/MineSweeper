@@ -14,25 +14,28 @@
 </head>
 <body>
 
-<main>
+<main id="outer-container">
 		
 	<header>
 		<nav>
 			<h1 class="logo">Minesweeper</h1>
-			<h2>About</h2>
+			<h2 id="about-btn">About</h2>
 		</nav>
 
 	</header>
 
-	<div class="modal">
+	<div class="modal display-none" id="modal">
+		<div class="close-btn" id="close-btn"></div>
 		<h1>About</h1>
 		
 				<p>Simple minesweeper game, still working on it.</p>
 				<h2>Todo :</h2>
 				<ul>
-					<li>Better UI</li>
+					<li>Change close modal icon</li>
+					<li>Better Board UI</li>
 					<li>Pop-up when the player win or loose</li>
 					<li>Custome size board</li>
+					<li>Keyborad navigation</li>
 				</ul>
 				<hr>
 				<h2> Link :</h2>	
@@ -60,6 +63,6 @@
 
 
 <script type="module" src="src/app.js"></script>
-
+<script src="src/modal.js"></script>
 </body>
 </html>
