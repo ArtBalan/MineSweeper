@@ -40,15 +40,37 @@ nav h1{
 }
 
 .modal h1{
-	padding: 20px 35px ;
+	padding: 10px 35px ;
+}
+
+.modal h2{
+	padding: 10px 45px;
+	font-weight: 500;
+	font-size: 1.3em;
 }
 
 .modal p{
 	margin-left: 55px;
 }
 
+.modal ul{
+	margin-left: 75px;
+	list-style: none;
+}
+
+.modal ul li::before {
+  content: "- ";
+}
+
+.modal hr{
+	width: 90%;
+	margin: 10px auto;
+}
 
 
+/****************************/
+/* Console									*/
+/****************************/
 #console{
     width: fit-content; 
     aspect-ratio: 1/1;
